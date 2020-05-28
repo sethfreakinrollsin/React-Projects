@@ -4,6 +4,8 @@ import SearchBox from '../Components/SearchBox';
 // import { robots } from './robots';
 import './App.css';
 import Scroll from'../Components/Scroll';
+//Check For Errors
+import ErrorBoundary from '../Components/ErrorBoundary';
 // import { render } from '@testing-library/react';
 
 // const state={
@@ -57,7 +59,9 @@ class App extends Component{
                 <h1 className="f1"> RoboFriends</h1>
                 <SearchBox searchChange={this.onSearchChange}/>
                 <Scroll>
-                    <CardList robots={filteredRobots}/>
+                    <ErrorBoundary>
+                        <CardList robots={filteredRobots}/>
+                    </ErrorBoundary>
                 </Scroll>
             </div>
         );
