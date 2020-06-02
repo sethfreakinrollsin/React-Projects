@@ -18,6 +18,9 @@ import { createLogger } from 'redux-logger';
 //Redux thunk - For Async JS, middleware that waits  if any action returns fuction instead of an objects
 import thunkMiddleware from 'redux-thunk';
 
+//WORKING PROCESS (REDUX)
+//Action -> Middleware(if any) -> Reducer -> Store( Has State(s)) ->React (Make Changes)
+
 //Logger - Middleware : Logs all the Actions
 const logger=createLogger();
 
