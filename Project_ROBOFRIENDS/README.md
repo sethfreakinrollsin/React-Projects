@@ -6,7 +6,7 @@ Version: v1
 After Cloning :-
 
 To install Modules :
-  npm install react
+npm install react
   
 To Start :
-  npm start
+npm start
