@@ -1,6 +1,6 @@
 ROBOFRIENDS 
 
-Developed By : Akash Seth
+Designed & Developed By : Akash Seth
 
 Basic App that does Searching Operation 
 
