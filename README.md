@@ -1,9 +1,9 @@
-ROBOFRIENDS 
+# ROBOFRIENDS 
 
-Designed & Developed By : Akash Seth
+## Designed & Developed By : *Akash Seth*
 
-Basic App that does Searching Operation 
+### Basic App that does Searching Operation 
 
-Languages : HTML ,CSS , JavaScript , React.js, Redux.js
+### Languages : HTML ,CSS , JavaScript , React.js, Redux.js
 
-Learned : Udemy
+## Learned : Udemy
